@@ -10,6 +10,7 @@ var cronometro = (function(){
 
     function iniciar(){
         // Executa uma função a cada x tempos passados no timeout.
+        zerar();
         cron =  setInterval(() => {
                     _timer();
                 }, 1000);
